@@ -17,5 +17,5 @@ setup(
     classifiers=[],
     package_data={'CRUDFilters.templates': ['*.html']},
     include_package_data=True,
-    install_requires=['Django', 'djangorestframework', 'djangorestframework-expiring-authtoken', 'django-dynamic-fixture', 'Pillow'],
+    install_requires=['Django', 'djangorestframework', 'djangorestframework-expiring-authtoken', 'django-dynamic-fixture'],
 )
